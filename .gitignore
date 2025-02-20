@@ -1,0 +1,15 @@
+# Node.js 관련
+node_modules
+.npm
+
+# Nuxt 빌드 파일
+.output
+.nuxt
+dist
+
+# 환경 변수 파일
+.env
+
+# 클라우드 배포 관련 (선택)
+.vercel
+.netlify
