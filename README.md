@@ -1,31 +1,75 @@
-1️⃣ 프로젝트 소개 (Introduction)
+# Nuxt Minimal Starter
 
-# NuxtCakeNgine 🍰🚀  
-"A house of code, where Nuxt shapes the dreams of time."
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-2️⃣ 주요 기능 (Features)
-## Features  
-✅ Built with Nuxt 3  
-✅ Modern and scalable web engine  
-✅ Optimized for performance and flexibility  
-✅ Supports REST & GraphQL APIs  
-✅ Beautiful UI with Tailwind & DaisyUI  
+## Setup
 
-3️⃣ 설치 방법 (Installation)
-## Installation  
-Clone the repository and install dependencies:
-```sh
-git clone https://github.com/내_깃허브_이름/nuxtCakeNgine.git  
-cd nuxtCakeNgine  
+Make sure to install dependencies:
+
+```bash
+# npm
 npm install
 
-4️⃣ 실행 방법 (Usage)
-## Usage  
-To start the development server:  
-```sh
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
 npm run dev
 
-5️⃣ 프로젝트 목표 (Vision)
-## Vision  
-NuxtCakeNgine is not just a framework, but a space where time and code merge into creation.  
-It is a house of code, where Nuxt shapes the dreams of time. 🚀  
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

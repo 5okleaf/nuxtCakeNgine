@@ -1,15 +1,24 @@
-# Node.js 관련
-node_modules
-.npm
-
-# Nuxt 빌드 파일
+# Nuxt dev/build outputs
 .output
+.data
 .nuxt
+.nitro
+.cache
 dist
 
-# 환경 변수 파일
-.env
+# Node dependencies
+node_modules
 
-# 클라우드 배포 관련 (선택)
-.vercel
-.netlify
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
